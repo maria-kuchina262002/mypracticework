@@ -26,4 +26,5 @@
 
 
 <a name="#problemstatement"/>
+
 ## 1.2 Формулировка задачи
