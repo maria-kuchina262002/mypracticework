@@ -3,7 +3,6 @@
 [Введение](#introduction)  
 [1. Описание предметной области](#domainDescription)  
 [1.1 Указание на проблематику](#existingProblems) 
-
 [1.2 Формулировка задачи](#problemstatement) 
 
 <a name="introduction"/>
