@@ -12,19 +12,19 @@ namespace mypracticework.Controllers
     public class ManagerController : ControllerBase
     {
 
-        [HttpGet("StaffList")]
+        [HttpPost("StaffList")]
         public string StaffList(string str)
         {
             return str; // Метод формирования списка персонала на текущую смену
         }
 
-        [HttpGet("ProductAccounting")]
+        [HttpPost("ProductAccounting")]
         public string ProductAccounting(string str)
         {
             return str; // Метод учета недостающей продукции
         }
        
-        [HttpGet("CalculatingProfit")]
+        [HttpPost("CalculatingProfit")]
         public string CalculatingProfit(string str)
         {
             return str; // Метод подсчета прибыли за текущую смену

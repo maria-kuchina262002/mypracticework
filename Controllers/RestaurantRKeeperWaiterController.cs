@@ -24,13 +24,13 @@ namespace mypracticework.Controllers
             return str; // Метод открытия счета
         }
        
-        [HttpGet("TransferOrder")]
+        [HttpPost("TransferOrder")]
         public string TransferOrder(string str)
         {
             return str; // Метод передачи заказа на кухню
         }
 
-        [HttpGet("CancellationDishes")]
+        [HttpPost("CancellationDishes")]
         public string CancellationDishes(string str)
         {
             return str; // Метод отмены позиций из заказа

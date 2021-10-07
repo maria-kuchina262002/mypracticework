@@ -1,4 +1,4 @@
-﻿using System;
+﻿ubusing System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -18,19 +18,19 @@ namespace mypracticework.Controllers
             return str; // Метод получения информации о блюдах
         }
 
-        [HttpGet("OrderingDishes")]
+        [HttpPost("OrderingDishes")]
         public string OrderingDishes(string str)
         {
             return str; // Метод заказа блюд
         }
        
-        [HttpGet("PayBill")]
+        [HttpPost("PayBill")]
         public string PayBill(string str)
         {
             return str; // Метод оплаты счета
         }
 
-        [HttpGet("LeavingReview")]
+        [HttpPost("LeavingReview")]
         public string LeavingReview (string str)
         {
             return str; // Метод оценивания обслуживания и блюд
