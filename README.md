@@ -28,7 +28,7 @@
 
 
 
-<a name="Systemdesignt"/>
+<a name="Systemdesign"/>
 
 ## 3. Проектирование системы
 
@@ -38,4 +38,12 @@
 ## 4. Проверка и тестирование системы
 
 <a name="Conclusion"/>
+
+## Заключение
+ 
+ <a name="Listofliterature"/>
+ 
+ ## Список литературы
+
+
 
