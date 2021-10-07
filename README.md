@@ -2,8 +2,11 @@
 ## Содержание
 [Введение](#introduction)  
 [1. Описание предметной области](#domainDescription)  
-[1.1 Указание на проблематику](#existingProblems) 
-[1.2 Формулировка задачи](#problemstatement) 
+[2. Сравнительный анализ ](#existingSoftware)
+[3. Проектирование системы](#Systemdesign)
+[4. Проверка и тестирование системы](#Checkingandtestingthesystem)
+[Заключение](#Conclusion)
+[Список литературы](#Listofliterature)
 
 <a name="introduction"/>
 
