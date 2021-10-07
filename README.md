@@ -26,14 +26,11 @@
 
 ## 2. Сравнительный анализ
 
-
-
 <a name="Systemdesign"/>
 
 ## 3. Проектирование системы
 
 <a name="Checkingandtestingthesystem"/>
-
 
 ## 4. Проверка и тестирование системы
 
@@ -41,9 +38,9 @@
 
 ## Заключение
  
- <a name="Listofliterature"/>
+<a name="Listofliterature"/>
  
- ## Список литературы
+## Список литературы
 
 
 
