@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-16T17:02:46.364Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 YaBrowser/21.9.1.684 Yowser/2.5 Safari/537.36" etag="C3T-xIJ5Vuqv4qLHbhUi" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-16T17:06:03.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 YaBrowser/21.9.1.684 Yowser/2.5 Safari/537.36" etag="ZOMbK9o-tV0p3d0wTGJ4" version="15.4.3" type="github">
   <diagram name="Page-1" id="ad52d381-51e7-2e0d-a935-2d0ddd2fd229">
     <mxGraphModel dx="820" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="2c924340bb9dbf6c-19" value="Формирование заказа" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="770" y="310" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2c924340bb9dbf6c-55" value="Подсчет прибыли R-keeper в конце дня&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
+        <mxCell id="2c924340bb9dbf6c-55" value="Подсчет прибыли в конце дня&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="370" y="110" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YYdvZUi9x7q3sWrVz7vb-11" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=default;" parent="1" source="3pCu6Yg-yBueKO-Vz3sY-1" target="2c924340bb9dbf6c-55" edge="1">
