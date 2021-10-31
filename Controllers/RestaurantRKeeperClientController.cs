@@ -8,29 +8,29 @@ using Microsoft.Extensions.Logging;
 namespace mypracticework.Controllers
 {
     [ApiController]
-    [Route("/client")]
+    [Route("/Client")]
     public class ClientController : ControllerBase
     {
 
-        [HttpGet("information-about-dishes")]
+        [HttpGet("InformationAboutDishes")]
         public string InformationAboutDishes(string str)
         {
             return str; // Метод получения информации о блюдах
         }
 
-        [HttpPost("ordering-dishes")]
+        [HttpPost("OrderingDishes")]
         public string OrderingDishes(string str)
         {
             return str; // Метод заказа блюд
         }
        
-        [HttpPost("pay-bill")]
+        [HttpPost("PayBill")]
         public string PayBill(string str)
         {
             return str; // Метод оплаты счета
         }
 
-        [HttpPost("leaving-review")]
+        [HttpPost("LeavingReview")]
         public string LeavingReview (string str)
         {
             return str; // Метод оценивания обслуживания и блюд
