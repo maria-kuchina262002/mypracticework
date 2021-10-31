@@ -12,25 +12,25 @@ namespace mypracticework.Controllers
     public class ClientController : ControllerBase
     {
 
-        [HttpGet("InformationAboutDishes")]
+        [HttpGet("information-about-dishes")]
         public string InformationAboutDishes(string str)
         {
             return str; // Метод получения информации о блюдах
         }
 
-        [HttpPost("OrderingDishes")]
+        [HttpPost("ordering-dishes")]
         public string OrderingDishes(string str)
         {
             return str; // Метод заказа блюд
         }
        
-        [HttpPost("PayBill")]
+        [HttpPost("pay-bill")]
         public string PayBill(string str)
         {
             return str; // Метод оплаты счета
         }
 
-        [HttpPost("LeavingReview")]
+        [HttpPost("leaving-review")]
         public string LeavingReview (string str)
         {
             return str; // Метод оценивания обслуживания и блюд
