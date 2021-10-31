@@ -8,35 +8,35 @@ using Microsoft.Extensions.Logging;
 namespace mypracticework.Controllers
 {
     [ApiController]
-    [Route("/waiter")]
+    [Route("/Waiter")]
     public class WaiterController : ControllerBase
     {
 
-        [HttpGet("taking-order")]
+        [HttpGet("TakingOrder")]
         public string TakingOrder (string str)
         {
             return str; // Метод формирования заказа
         }
 
-        [HttpGet("opening-bill")]
+        [HttpGet("OpeningBill")]
         public string OpeningBill (string str)
         {
             return str; // Метод открытия счета
         }
        
-        [HttpPost("transfer-order")]
+        [HttpPost("TransferOrder")]
         public string TransferOrder(string str)
         {
             return str; // Метод передачи заказа на кухню
         }
 
-        [HttpPost("cancellation-dishes")]
+        [HttpPost("CancellationDishes")]
         public string CancellationDishes(string str)
         {
             return str; // Метод отмены позиций из заказа
         }
 
-        [HttpGet("customer-service")]
+        [HttpGet("CustomerService")]
         public string CustomerService(string str)
         {
             return str; // Метод обслуживания клиента в порядке электронной очереди
