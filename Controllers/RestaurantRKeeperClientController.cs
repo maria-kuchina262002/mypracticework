@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace mypracticework.Controllers
 {
     [ApiController]
-    [Route("/client")]
+    [Route("/Client")]
     public class ClientController : ControllerBase
     {
 
