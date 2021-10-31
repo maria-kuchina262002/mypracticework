@@ -11,19 +11,18 @@ namespace mypracticework.Controllers
     [Route("/Waiter")]
     public class WaiterController : ControllerBase
     {
-
         [HttpGet("TakingOrder")]
-        public string TakingOrder (string str)
+        public string TakingOrder(string str)
         {
             return str; // Метод формирования заказа
         }
 
         [HttpGet("OpeningBill")]
-        public string OpeningBill (string str)
+        public string OpeningBill(string str)
         {
             return str; // Метод открытия счета
         }
-       
+
         [HttpPost("TransferOrder")]
         public string TransferOrder(string str)
         {
@@ -43,4 +42,3 @@ namespace mypracticework.Controllers
         }
     }
 }
-

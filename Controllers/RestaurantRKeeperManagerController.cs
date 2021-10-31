@@ -11,7 +11,6 @@ namespace mypracticework.Controllers
     [Route("/Manager")]
     public class ManagerController : ControllerBase
     {
-
         [HttpPost("StaffList")]
         public string StaffList(string str)
         {
@@ -23,14 +22,11 @@ namespace mypracticework.Controllers
         {
             return str; // Метод учета недостающей продукции
         }
-       
+
         [HttpPost("CalculatingProfit")]
         public string CalculatingProfit(string str)
         {
             return str; // Метод подсчета прибыли за текущую смену
         }
-
-       
     }
 }
-

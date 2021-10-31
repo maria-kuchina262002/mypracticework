@@ -23,7 +23,7 @@ namespace mypracticework.Controllers
         {
             return str; // Метод заказа блюд
         }
-       
+
         [HttpPost("PayBill")]
         public string PayBill(string str)
         {
@@ -31,10 +31,9 @@ namespace mypracticework.Controllers
         }
 
         [HttpPost("LeavingReview")]
-        public string LeavingReview (string str)
+        public string LeavingReview(string str)
         {
             return str; // Метод оценивания обслуживания и блюд
         }
     }
 }
-
