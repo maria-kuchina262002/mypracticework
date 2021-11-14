@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-04T09:46:36.572Z" agent="5.0 (Windows)" etag="jK5RqBQ06llrTbXUGjaw" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-14T13:03:52.203Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.85 YaBrowser/21.11.0.1996 Yowser/2.5 Safari/537.36" etag="cLBR35RALMlS1BbbznRm" version="15.7.3" type="github">
   <diagram id="nGhzScu0w4sPOhvbiOy2" name="Page-1">
-    <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="965" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,7 +97,7 @@
         <mxCell id="5d1MTNIgyIdPS4blu5-G-63" value="Получение готового заказа на кухне" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1490" y="375" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Y7IHXFllaNnNGvKMpeWQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5d1MTNIgyIdPS4blu5-G-64" target="tXcFCOacGo3yS5a86gHN-18">
+        <mxCell id="Y7IHXFllaNnNGvKMpeWQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5d1MTNIgyIdPS4blu5-G-64" target="tXcFCOacGo3yS5a86gHN-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1150" y="455" />
@@ -159,7 +159,7 @@
         <mxCell id="5d1MTNIgyIdPS4blu5-G-83" value="Формирование рейтинга блюд и качества обслуживания" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
           <mxGeometry x="940" y="510" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y7IHXFllaNnNGvKMpeWQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5d1MTNIgyIdPS4blu5-G-92" target="CcBVJNswqVSOJrU5NbKI-16">
+        <mxCell id="Y7IHXFllaNnNGvKMpeWQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5d1MTNIgyIdPS4blu5-G-92" target="CcBVJNswqVSOJrU5NbKI-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="760" y="480" />
@@ -175,7 +175,7 @@
         <mxCell id="tXcFCOacGo3yS5a86gHN-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tXcFCOacGo3yS5a86gHN-1" target="5d1MTNIgyIdPS4blu5-G-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y7IHXFllaNnNGvKMpeWQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tXcFCOacGo3yS5a86gHN-1" target="YV0_0Q3OCMovpsSQ5Pv6-6">
+        <mxCell id="Y7IHXFllaNnNGvKMpeWQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tXcFCOacGo3yS5a86gHN-1" target="YV0_0Q3OCMovpsSQ5Pv6-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="250" y="494" />
@@ -314,13 +314,13 @@
         <mxCell id="YV0_0Q3OCMovpsSQ5Pv6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="YV0_0Q3OCMovpsSQ5Pv6-8" target="tXcFCOacGo3yS5a86gHN-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="421" y="620" />
-              <mxPoint x="225" y="620" />
+              <mxPoint x="421" y="571" />
+              <mxPoint x="225" y="571" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="YV0_0Q3OCMovpsSQ5Pv6-8" value="Составление нового меню" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="358.63" y="597.5" width="124.5" height="42.5" as="geometry" />
+          <mxGeometry x="358.63" y="542" width="124.5" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="YV0_0Q3OCMovpsSQ5Pv6-11" value="Разработка дизайна" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#ae4132;" parent="1" vertex="1">
           <mxGeometry x="361.38" y="415" width="124.5" height="42.5" as="geometry" />
