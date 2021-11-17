@@ -23,13 +23,13 @@ namespace mypracticework.Controllers
             return str;
         }
 
-        [HttpPatch("Update")]
+        [HttpPost("Update")]
         public string Update(string str)
         {
             return str;
         }
 
-        [HttpDelete("Delete")]
+        [HttpDelete]
         public string Delete(string str)
         {
             return str;
