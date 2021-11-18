@@ -1,3 +1,5 @@
+using System;
+
 namespace mypracticework.Domain
 {
     class Ingridient
