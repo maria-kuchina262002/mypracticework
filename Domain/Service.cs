@@ -1,4 +1,4 @@
-﻿namespace mypracticework.Domain
+namespace mypracticework.Domain
 {
     class Service
     {
