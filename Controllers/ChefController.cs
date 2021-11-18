@@ -9,7 +9,7 @@ namespace mypracticework.Controllers
 {
     [ApiController]
     [Route("/chef")]
-    public class ClientController : ControllerBase
+    public class ChefController : ControllerBase
     {
 
         [HttpGet("TakingOrder")]
