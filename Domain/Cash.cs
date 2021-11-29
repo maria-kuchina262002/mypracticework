@@ -1,8 +1,8 @@
 namespace mypracticework.Domain
 {
-    class Cash
+    public class Cash
     {
-        public int IDCash { get; set; }
+        public int CashId { get; set; }
         public decimal ContentOfCash { get; set; }
         public string Bill { get; set; }
     }

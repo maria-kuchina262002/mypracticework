@@ -1,8 +1,8 @@
 namespace mypracticework.Domain
 {
-    class Photo
+   public class Photo
     {
-        public int IDPhoto { get; set; }
+        public int PhotoId { get; set; }
         public int Menu { get; set; }
     }
 }

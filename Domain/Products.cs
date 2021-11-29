@@ -1,6 +1,6 @@
 namespace mypracticework.Domain
 {
-    class Products
+    public class Products
     {
         public int Ingridient { get; set; }
         public int QuantityInStock { get; set; }

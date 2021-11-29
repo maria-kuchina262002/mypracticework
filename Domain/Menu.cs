@@ -2,7 +2,7 @@ namespace mypracticework.Domain
 {
     public class Menu
     {
-        public int IDDish { get; set; }
+        public int MenuId { get; set; }
         public int Dish { get; set; }
         public object Photo { get; set; } //
         public string Ingridient { get; set; }

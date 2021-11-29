@@ -1,8 +1,8 @@
 namespace mypracticework.Domain
 {
-   public class Employee
+    class Employee
     {
-        public int EmployeeId { get; set; }
+        public int IDEmployee { get; set; }
         public string FIO { get; set; }
         public string Position { get; set; }
         public decimal Salary { get; set; }

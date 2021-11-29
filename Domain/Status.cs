@@ -1,7 +1,7 @@
 namespace mypracticework.Domain
 {
-    class Status
+   public class Status
     {
-        public int IDStatus { get; set; }
+        public int StatusId { get; set; }
     }
 }
