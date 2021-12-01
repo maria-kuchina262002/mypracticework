@@ -27,3 +27,4 @@ C:\Users\user\Documents\mypracticework\obj\Debug\net5.0\mypracticework.dll
 C:\Users\user\Documents\mypracticework\obj\Debug\net5.0\ref\mypracticework.dll
 C:\Users\user\Documents\mypracticework\obj\Debug\net5.0\mypracticework.pdb
 C:\Users\user\Documents\mypracticework\obj\Debug\net5.0\mypracticework.genruntimeconfig.cache
+C:\Users\user\Documents\mypracticework\obj\Debug\net5.0\mypracticework.csprojAssemblyReference.cache
