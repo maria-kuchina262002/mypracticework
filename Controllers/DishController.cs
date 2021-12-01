@@ -8,8 +8,8 @@ using Microsoft.Extensions.Logging;
 namespace mypracticework.Controllers
 {
     [ApiController]
-    [Route("/Employee")]
-    public class EmployeeController : ControllerBase
+    [Route("/Dish")]
+    public class DishController : ControllerBase
     {
         [HttpPut("Create")]
         public string Create(string str)

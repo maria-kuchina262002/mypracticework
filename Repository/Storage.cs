@@ -4,8 +4,9 @@ namespace mypracticework.Repository
     {
         public static BillStorage BillStorage { get; } = new BillStorage();
         public static CashStorage CashStorage { get; } = new CashStorage();
+        public static ClientStorage ClientStorage { get; } = new ClientStorage();
         public static DishStorage DishStorage { get; } = new DishStorage();
-        public static EmployeeStorage EmployeeStorage { get; } = new EmployeeStorage();
+        public static StaffStorage StaffStorage { get; } = new StaffStorage();
         public static IngridientStorage IngridientStorage { get; } = new IngridientStorage();
         public static MenuStorage MenuStorage { get; } = new MenuStorage();
         public static OrderStorage OrderStorage { get; } = new OrderStorage();

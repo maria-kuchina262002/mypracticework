@@ -7,5 +7,6 @@ namespace mypracticework.Domain
         public int CountOfServings { get; set; }
         public int Employee { get; set; }
         public int Review { get; set; }
+        public int Client { get; set; }
     }
 }

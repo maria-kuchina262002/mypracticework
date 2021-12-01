@@ -7,5 +7,6 @@ namespace mypracticework.Domain
         public string PaymentMethod { get; set; }
         public decimal OrderCost { get; set; }
         public int Status { get; set; }
+        public int Client { get; set; }
     }
 }
