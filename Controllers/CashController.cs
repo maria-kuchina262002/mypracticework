@@ -11,29 +11,30 @@ namespace mypracticework.Controllers
     [Route("/Cash")]
     public class CashController : ControllerBase
     {
-        [HttpPut("Create")]
-        public string Create(string str)
+        [HttpPut]
+        public Cash Create(Cash cash)
         {
-            return str;
+            Storage.CashStorage.Create(cash);
+            return cash;
         }
 
-        [HttpGet("Read")]
-        public string Read(string str)
+        [HttpGet]
+        public Cash Read(int cashId)
         {
-            return str;
+            return Storage.CashStorage.Read(cashId);
         }
 
-        [HttpPost("Update")]
-        public string Update(string str)
+        [HttpPost]
+        public Cash Update(int cashId, Cash newCash)
         {
-            return str;
+            return Storage.CashStorage.Update(cashId, newCash);
         }
 
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int cashId)
         {
-            return str;
+            return Storage.CashStorage.Delete(cashId);
         }
-    }
 
+    }
 }

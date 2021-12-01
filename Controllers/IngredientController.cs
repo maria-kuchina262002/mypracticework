@@ -11,29 +11,29 @@ namespace mypracticework.Controllers
     [Route("/Ingredient")]
     public class IngredientController : ControllerBase
     {
-        [HttpPut("Create")]
-        public string Create(string str)
+        [HttpPut]
+        public Ingredient Create(Ingredient ingredient)
         {
-            return str;
+            Storage.IngredientStorage.Create(ingredient);
+            return ingredient;
         }
 
-        [HttpGet("Read")]
-        public string Read(string str)
+        [HttpGet]
+        public Ingredient Read(int ingredientId)
         {
-            return str;
+            return Storage.IngredientStorage.Read(ingredientId);
         }
 
-        [HttpPost("Update")]
-        public string Update(string str)
+        [HttpPost]
+        public Ingredient Update(int ingredientId, Ingredient newIngredient)
         {
-            return str;
+            return Storage.IngredientStorage.Update(ingredientId, newIngredient);
         }
 
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int ingredientId)
         {
-            return str;
+            return Storage.IngredientStorage.Delete(ingredientId);
         }
-    }
 
-}
+    }

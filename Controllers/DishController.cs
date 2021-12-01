@@ -11,28 +11,29 @@ namespace mypracticework.Controllers
     [Route("/Dish")]
     public class DishController : ControllerBase
     {
-        [HttpPut("Create")]
-        public string Create(string str)
+        [HttpPut]
+        public Dish Create(Dish dish)
         {
-            return str;
+            Storage.DishStorage.Create(dish);
+            return dish;
         }
 
-        [HttpGet("Read")]
-        public string Read(string str)
+        [HttpGet]
+        public Dish Read(int dishId)
         {
-            return str;
+            return Storage.DishStorage.Read(dishId);
         }
 
-        [HttpPost("Update")]
-        public string Update(string str)
+        [HttpPost]
+        public Dish Update(int dishId, Dish newDish)
         {
-            return str;
+            return Storage.DishStorage.Update(dishId, newDish);
         }
 
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int dishId)
         {
-            return str;
+            return Storage.DishStorage.Delete(dishId);
         }
     }
 

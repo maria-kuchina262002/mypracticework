@@ -11,29 +11,29 @@ namespace mypracticework.Controllers
     [Route("/Menu")]
     public class MenuController : ControllerBase
     {
-        [HttpPut("Create")]
-        public string Create(string str)
+        [HttpPut]
+        public Menu Create(Menu menu)
         {
-            return str;
+            Storage.MenuStorage.Create(menu);
+            return menu;
         }
 
-        [HttpGet("Read")]
-        public string Read(string str)
+        [HttpGet]
+        public Menu Read(int menuId)
         {
-            return str;
+            return Storage.MenuStorage.Read(menuId);
         }
 
-        [HttpPost("Update")]
-        public string Update(string str)
+        [HttpPost]
+        public Menu Update(int menuId, Menu newMenu)
         {
-            return str;
+            return Storage.MenuStorage.Update(menuId, newMenu);
         }
 
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int menuId)
         {
-            return str;
+            return Storage.MenuStorage.Delete(menuId);
         }
-    }
 
-}
+    }

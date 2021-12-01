@@ -11,28 +11,29 @@ namespace mypracticework.Controllers
     [Route("/Photo")]
     public class PhotoController : ControllerBase
     {
-        [HttpPut("Create")]
-        public string Create(string str)
+        [HttpPut]
+        public Photo Create(Photo photo)
         {
-            return str;
+            Storage.PhotoStorage.Create(photo);
+            return photo;
         }
 
-        [HttpGet("Read")]
-        public string Read(string str)
+        [HttpGet]
+        public Photo Read(int photoId)
         {
-            return str;
+            return Storage.PhotoStorage.Read(photoId);
         }
 
-        [HttpPost("Update")]
-        public string Update(string str)
+        [HttpPost]
+        public Photo Update(int photoId, Photo newPhoto)
         {
-            return str;
+            return Storage.PhotoStorage.Update(photoId, newPhoto);
         }
 
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int billId)
         {
-            return str;
+            return Storage.PhotoStorage.Delete(photoId);
         }
     }
 

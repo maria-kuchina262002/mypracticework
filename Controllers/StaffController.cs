@@ -8,9 +8,33 @@ using Microsoft.Extensions.Logging;
 namespace mypracticework.Controllers
 {
     [ApiController]
-    [Route("/staff")]
+    [Route("/Staff")]
     public class StaffController : ControllerBase
     {
+        [HttpPut]
+        public Staff Create(Staff staff)
+        {
+            Storage.StaffStorage.Create(staff);
+            return staff;
+        }
+
+        [HttpGet]
+        public Staff Read(int staffId)
+        {
+            return Storage.StaffStorage.Read(staffId);
+        }
+
+        [HttpPost]
+        public Staff Update(int staffId, Staff newStaff)
+        {
+            return Storage.StaffStorage.Update(staffId, newStaff);
+        }
+
+        [HttpDelete]
+        public bool Delete(int staffId)
+        {
+            return Storage.StaffStorage.Delete(staffId);
+        }
 
         [HttpGet("TakingOrder")]
         public string TakingOrder(string str)

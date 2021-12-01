@@ -11,28 +11,29 @@ namespace mypracticework.Controllers
     [Route("/Review")]
     public class ReviewController : ControllerBase
     {
-        [HttpPut("Create")]
-        public string Create(string str)
+        [HttpPut]
+        public Review Create(Review review)
         {
-            return str;
+            Storage.ReviewStorage.Create(review);
+            return review;
         }
 
-        [HttpGet("Read")]
-        public string Read(string str)
+        [HttpGet]
+        public Review Read(int reviewId)
         {
-            return str;
+            return Storage.ReviewStorage.Read(reviewId);
         }
 
-        [HttpPost("Update")]
-        public string Update(string str)
+        [HttpPost]
+        public Review Update(int reviewId, Review newReview)
         {
-            return str;
+            return Storage.ReviewStorage.Update(reviewId, newReview);
         }
 
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int reviewId)
         {
-            return str;
+            return Storage.ReviewStorage.Delete(reviewId);
         }
     }
 

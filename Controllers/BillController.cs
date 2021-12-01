@@ -11,28 +11,29 @@ namespace mypracticework.Controllers
     [Route("/Bill")]
     public class BillController : ControllerBase
     {
-        [HttpPut("Create")]
-        public string Create(string str)
+        [HttpPut]
+        public Bill Create(Bill bill)
         {
-            return str;
+            Storage.BillStorage.Create(bill);
+            return bill;
         }
 
-        [HttpGet("Read")]
-        public string Read(string str)
+        [HttpGet]
+        public Bill Read(int billId)
         {
-            return str;
+            return Storage.BillStorage.Read(billId);
         }
 
-        [HttpPost("Update")]
-        public string Update(string str)
+        [HttpPost]
+        public Bill Update(int billId, Bill newBill)
         {
-            return str;
+            return Storage.BillStorage.Update(billId, newBill);
         }
 
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int billId)
         {
-            return str;
+            return Storage.BillStorage.Delete(billId);
         }
     }
 

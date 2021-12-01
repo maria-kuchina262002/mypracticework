@@ -11,29 +11,29 @@ namespace mypracticework.Controllers
     [Route("/Service")]
     public class ServiceController : ControllerBase
     {
-        [HttpPut("Create")]
-        public string Create(string str)
+        [HttpPut]
+        public Service Create(Service service)
         {
-            return str;
+            Storage.ServiceStorage.Create(service);
+            return service;
         }
 
-        [HttpGet("Read")]
-        public string Read(string str)
+        [HttpGet]
+        public Service Read(int serviceId)
         {
-            return str;
+            return Storage.ServiceStorage.Read(serviceId);
         }
 
-        [HttpPost("Update")]
-        public string Update(string str)
+        [HttpPost]
+        public Service Update(int serviceId, Service newService)
         {
-            return str;
+            return Storage.ServiceStorage.Update(serviceId, newService);
         }
 
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int serviceId)
         {
-            return str;
+            return Storage.ServiceStorage.Delete(serviceId);
         }
-    }
 
-}
+    }

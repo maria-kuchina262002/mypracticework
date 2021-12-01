@@ -11,29 +11,29 @@ namespace mypracticework.Controllers
     [Route("/Order")]
     public class OrderController : ControllerBase
     {
-        [HttpPut("Create")]
-        public string Create(string str)
+        [HttpPut]
+        public Order Create(Order order)
         {
-            return str;
+            Storage.OrderStorage.Create(order);
+            return order;
         }
 
-        [HttpGet("Read")]
-        public string Read(string str)
+        [HttpGet]
+        public Order Read(int orderId)
         {
-            return str;
+            return Storage.OrderStorage.Read(orderId);
         }
 
-        [HttpPost("Update")]
-        public string Update(string str)
+        [HttpPost]
+        public Order Update(int orderId, Order newOrder)
         {
-            return str;
+            return Storage.OrderStorage.Update(orderId, newOrder);
         }
 
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int orderId)
         {
-            return str;
+            return Storage.OrderStorage.Delete(orderId);
         }
-    }
 
-}
+    }

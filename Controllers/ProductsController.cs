@@ -11,29 +11,29 @@ namespace mypracticework.Controllers
     [Route("/Products")]
     public class ProductsController : ControllerBase
     {
-        [HttpPut("Create")]
-        public string Create(string str)
+        [HttpPut]
+        public Products Create(Products products)
         {
-            return str;
+            Storage.ProductsStorage.Create(products);
+            return products;
         }
 
-        [HttpGet("Read")]
-        public string Read(string str)
+        [HttpGet]
+        public Products Read(int productsId)
         {
-            return str;
+            return Storage.ProductsStorage.Read(productsId);
         }
 
-        [HttpPost("Update")]
-        public string Update(string str)
+        [HttpPost]
+        public Products Update(int productsId, Products newProducts)
         {
-            return str;
+            return Storage.ProductsStorage.Update(productsId, newProducts);
         }
 
         [HttpDelete]
-        public string Delete(string str)
+        public bool Delete(int productsId)
         {
-            return str;
+            return Storage.ProductsStorage.Delete(productsId);
         }
-    }
 
-}
+    }
