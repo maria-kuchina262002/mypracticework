@@ -58,7 +58,7 @@
 
 ## 3 Разработка системы
 
-Разработка информационной системы начинается с проектрирования диаграммы, отображающей действующие лица данной системы: менеджер, официант, повар и клиент.
+Разработка информационной системы начинается с проектрирования диаграммы, отображающей действующие лица данной системы: Менеджер, Официант, Шеф-повар, Клиент.
 
 
 
@@ -79,7 +79,9 @@
  
 ## Список использованных источников
 [1] https://www.cleverence.ru/articles/elektronnaya-kommertsiya/sistema-r-keeper-chto-eto-takoe-printsip-raboty-programmy-luchshee-programmnoe-obespechenie-dlya-res/
+
 [2] https://www.posland.ru/articles/r-keeper/
+
 [3] https://eto-razvod.ru/review/rkeeper/
 
 
