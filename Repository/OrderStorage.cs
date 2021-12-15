@@ -1,14 +1,11 @@
 using mypracticework.Domain;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 
 namespace mypracticework.Repository
 {
-    public class Order
-    {
         public class OrderStorage
         {
-            private Dictionary<int, Order> Orders { get; } = new Dictionary<int, Order>();
+            private Dictionary<int, Order> Orders { get; } = new();
 
             public void Create(Order order)
             {
@@ -32,5 +29,4 @@ namespace mypracticework.Repository
             }
 
         }
-    }
 }

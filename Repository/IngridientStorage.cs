@@ -1,14 +1,11 @@
 using mypracticework.Domain;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 
 namespace mypracticework.Repository
 {
-    public class Ingridient
-    {
         public class IngridientStorage
         {
-            private Dictionary<int, Ingridient> Ingridients { get; } = new Dictionary<int, Ingridient>();
+            private Dictionary<int, Ingridient> Ingridients { get; } = new();
 
             public void Create(Ingridient ingridient)
             {
@@ -32,5 +29,4 @@ namespace mypracticework.Repository
             }
 
         }
-    }
 }

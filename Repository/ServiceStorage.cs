@@ -1,14 +1,11 @@
 using mypracticework.Domain;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 
 namespace mypracticework.Repository
 {
-    public class Service
-    {
         public class ServiceStorage
         {
-            private Dictionary<int, Service> Services { get; } = new Dictionary<int, Service>();
+            private Dictionary<int, Service> Services { get; } = new();
 
             public void Create(Service service)
             {
@@ -32,6 +29,5 @@ namespace mypracticework.Repository
             }
 
         }
-    }
 }
 

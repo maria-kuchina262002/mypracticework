@@ -2,16 +2,16 @@ namespace mypracticework.Repository
 {
     public static class Storage
     {
-        public static BillStorage BillStorage { get; } = new BillStorage();
-        public static CashStorage CashStorage { get; } = new CashStorage();
-        public static ClientStorage ClientStorage { get; } = new ClientStorage();
-        public static DishStorage DishStorage { get; } = new DishStorage();
-        public static StaffStorage StaffStorage { get; } = new StaffStorage();
-        public static IngridientStorage IngridientStorage { get; } = new IngridientStorage();
-        public static MenuStorage MenuStorage { get; } = new MenuStorage();
-        public static OrderStorage OrderStorage { get; } = new OrderStorage();
-        public static PhotoStorage PhotoStorage { get; } = new PhotoStorage();
-        public static ReviewStorage ReviewStorage { get; } = new ReviewStorage();
-        public static ServiceStorage ServiceStorage { get; } = new ServiceStorage();
+        public static readonly BillStorage BillStorage  = new BillStorage();
+        public static readonly CashStorage CashStorage = new CashStorage();
+        public static readonly ClientStorage ClientStorage = new ClientStorage();
+        public static readonly DishStorage DishStorage  = new DishStorage();
+        public static readonly StaffStorage StaffStorage  = new StaffStorage();
+        public static readonly IngridientStorage IngridientStorage = new IngridientStorage();
+        public static readonly MenuStorage MenuStorage  = new MenuStorage();
+        public static readonly OrderStorage OrderStorage  = new OrderStorage();
+        public static readonly PhotoStorage PhotoStorage = new PhotoStorage();
+        public static readonly ReviewStorage ReviewStorage = new ReviewStorage();
+        public static readonly ServiceStorage ServiceStorage = new ServiceStorage();
     }
 }

@@ -1,14 +1,11 @@
 using mypracticework.Domain;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 
 namespace mypracticework.Repository
 {
-    public class Menu
-    {
         public class MenuStorage
         {
-            private Dictionary<int, Menu> Menues { get; } = new Dictionary<int, Menu>();
+            private Dictionary<int, Menu> Menues { get; } = new ();
 
             public void Create(Menu menu)
             {
@@ -32,7 +29,6 @@ namespace mypracticework.Repository
             }
 
         }
-    }
 }
 
 
