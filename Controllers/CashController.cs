@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.AspNetCore.Mvc;
+using mypracticework.Domain;
+using mypracticework.Repository;
 
 namespace mypracticework.Controllers
 {
@@ -38,3 +35,4 @@ namespace mypracticework.Controllers
 
     }
 }
+
