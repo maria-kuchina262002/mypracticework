@@ -91,7 +91,7 @@
 При оплате Клиентами счетов, все деньги поступают в кассу. Оттуда Менеджер и подсчитывает прибыль. 
 
 На основе всех хранилищ из DFD диаграммы разрабатывается ER диаграмма.[5] (см.рисунок 3)
-![image]([2021-12-17_23-26-42](https://user-images.githubusercontent.com/91078274/146603988-4cf1c0ff-13ee-4efe-ade9-f66102a43085.png)
+![image](https://user-images.githubusercontent.com/91078274/146603988-4cf1c0ff-13ee-4efe-ade9-f66102a43085.png)
 
 
 <a name="Checkingandtestingthesystem"/>
