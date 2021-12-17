@@ -76,12 +76,9 @@
 
 ![image](https://user-images.githubusercontent.com/91078274/144634488-972acf9d-cc66-43b3-912f-1991d23f1fe7.png)
 
-                                             Рисунок 2-DFD Диаграмма
+                                                Рисунок 2-DFD Диаграмма
 
 
-### 3.1 Проектирование системы
-
-### 3.2 Реализация системы
 
 <a name="Checkingandtestingthesystem"/>
 
