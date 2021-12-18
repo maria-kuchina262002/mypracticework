@@ -118,7 +118,7 @@
 
                                                Рисунок 6-Хранилище класса Menu
                                                 
-![image](https://user-images.githubusercontent.com/91078274/146609478-33ac8edb-85d0-4cd8-ba04-4a2727baa4c5.png)
+![image](https://user-images.githubusercontent.com/91078274/146636910-0e54c876-3e45-4459-a483-2891d8ec9d70.png)
                                                
                                                Рисунок 7-Общее хранилище
                                                
