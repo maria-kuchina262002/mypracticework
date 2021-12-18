@@ -253,7 +253,7 @@
 <a name="Listofliterature"/>
  
 ## Список использованных источников
-[1] https://www.cleverence.ru/articles/elektronnaya-kommertsiya/sistema-r-keeper-chto-eto-takoe-printsip-raboty-programmy-luchshee-programmnoe-obespechenie-dlya-res/
+[1] Система R-keeper: что это такое, принцип работы программы - лучшее программное обеспечение для ресторанов и кафе [электронный ресурс]/Бобков Олег-Особенности программы R-Keeper и принцип ее работы, 2020-Режим доступа:https://www.cleverence.ru/articles/elektronnaya-kommertsiya/sistema-r-keeper-chto-eto-takoe-printsip-raboty-programmy-luchshee-programmnoe-obespechenie-dlya-res/, свободный (дата обращения 01.12.2021)
 
 [2] https://www.posland.ru/articles/r-keeper/
 
