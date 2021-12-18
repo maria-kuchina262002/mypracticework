@@ -264,6 +264,3 @@
 
 [6] Что такое CRUD операции [электронный ресурс]/BEST PROGRAMMER - Что такое CRUD операции?, 2021 - Режим доступа:https://bestprogrammer.ru/izuchenie/chto-takoe-crud-operatsii, свободный (дата обращения 06.12.2021)
 
-[7]
-
-[8]
