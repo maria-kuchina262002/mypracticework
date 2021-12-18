@@ -108,7 +108,7 @@
                                                
  Аналогичным образом создаются классы для всех сущностей.(см.рисунок 5)
  
-                   ![image](https://user-images.githubusercontent.com/91078274/146607997-187150ae-80d1-4cf7-abce-017376408b09.png)
+![image](https://user-images.githubusercontent.com/91078274/146607997-187150ae-80d1-4cf7-abce-017376408b09.png)
  
                                                Рисунок 5-Список созданных классов
 
